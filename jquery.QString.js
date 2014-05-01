@@ -1,7 +1,7 @@
 /*
  * jQuery QueryString Plugin
  * Author: Ryan Schwartz
- * Version: 1.0.3 (22-FEB-2014)
+ * Version: 1.0.4 (22-FEB-2014)
  * Dual licensed under the MIT and GPL licenses:
  * http://www.opensource.org/licenses/mit-license.php
  * http://www.gnu.org/licenses/gpl-3.0-standalone.html

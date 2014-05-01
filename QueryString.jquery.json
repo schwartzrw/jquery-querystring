@@ -3,7 +3,6 @@
     "title": "QueryString",
     "description": "Enables access to query string parameters in the URL from Javascript the same way back-end languages can access GET parameters.",
     "keywords": [
-        "query string",
         "get",
 		"querystring",
 		"parameter"

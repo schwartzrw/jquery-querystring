@@ -1,0 +1,40 @@
+{
+    "name": "QueryString",
+    "title": "QueryString",
+    "description": "Enables access to query string parameters in the URL from Javascript the same way back-end languages can access GET parameters.",
+    "keywords": [
+        "query string",
+        "get",
+		"querystring",
+		"parameter"
+    ],
+    "version": "1.0.1",
+    "author": {
+        "name": "RWSApps",
+        "url": "http://jquery.rwsapps.com/QueryString"
+    },
+    "maintainers": [
+        {
+            "name": "Ryan Schwartz",
+            "email": "contact@rwsapps.com",
+            "url": "http://jquery.rwsapps.com/"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/schwartzrw/jquery-querystring/blob/master/RWSApps%20MIT.rtf"
+        },
+        {
+            "type": "GNU",
+            "url": "https://github.com/schwartzrw/jquery-querystring/blob/master/RWSApps%20GNU.rtf"
+        }
+    ],
+    "bugs": "https://github.com/schwartzrw/jquery-querystring/issues",
+    "homepage": "http://jquery.rwsapps.com/QueryString",
+    "docs": "http://jquery.rwsapps.com/QueryString/documentation",
+    "download": "https://github.com/schwartzrw/jquery-querystring",
+    "dependencies": {
+        "jquery": ">=1.5"
+    }
+}

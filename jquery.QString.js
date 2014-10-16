@@ -1,7 +1,7 @@
 /*
  * jQuery QueryString Plugin
  * Author: Ryan Schwartz
- * Version: 1.0.4 (22-FEB-2014)
+ * Version: 1.0.5 (16-OCT-2014)
  * Dual licensed under the MIT and GPL licenses:
  * http://www.opensource.org/licenses/mit-license.php
  * http://www.gnu.org/licenses/gpl-3.0-standalone.html
@@ -28,6 +28,14 @@ $(function() {
 		var val = re.exec(s);
 		val = (val) ? val[2] : "";
 		return val;
+	}
+	
+	// Declare sub-function for getting a specific hash
+	QueryString.getHash = function(){
+			
+	    var hash = window.location.hash;
+		hash = hash.substring(1); // remove the #
+		return hash;
 	}
 	
 	// Declare sub-function for getting an object of all query strings
